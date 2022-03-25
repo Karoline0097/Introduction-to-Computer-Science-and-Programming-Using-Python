@@ -136,3 +136,123 @@ Enter n to deal a new hand, r to replay the last hand, or e to end game: x
 Invalid command.
 Enter n to deal a new hand, r to replay the last hand, or e to end game: e
 ```
+
+
+## Problem 7 - Computer Choosing a Word and Playing a Hand
+* dependent on your functions from ps4a.py
+* enable your computer (SkyNet) to play the game
+* You may notice that things run a bit slowly when the computer plays. This is to be expected - the wordList has 83667 words
+
+
+## `compChooseWord`
+
+* creates a computer player that is legal, but not always the best
+* Test Cases to Understand the Code: 
+```
+>>> compChooseWord({'a': 1, 'p': 2, 's': 1, 'e': 1, 'l': 1}, wordList, 6) 
+appels 
+>>> compChooseWord({'a': 2, 'c': 1, 'b': 1, 't': 1}, wordList, 5) 
+acta 
+>>> compChooseWord({'a': 2, 'e': 2, 'i': 2, 'm': 2, 'n': 2, 't': 2}, wordList, 12) 
+immanent 
+>>> compChooseWord({'x': 2, 'z': 2, 'q': 2, 'n': 2, 't': 2}, wordList, 12) 
+None
+```
+
+## `compPlayHand`
+
+* allows the computer to play a given hand
+* Test Cases to Understand the Code: 
+```
+compPlayHand({'a': 1, 'p': 2, 's': 1, 'e': 1, 'l': 1}, wordList, 6)
+Current Hand: a p p s e l
+"appels" earned 110 points. Total: 110 points
+Total score: 110 points.
+
+compPlayHand({'a': 2, 'c': 1, 'b': 1, 't': 1}, wordList, 5)
+Current Hand: a a c b t "acta" 
+earned 24 points. Total: 24 points 
+Current Hand: b Total score: 24 points. 
+
+compPlayHand({'a': 2, 'e': 2, 'i': 2, 'm': 2, 'n': 2, 't': 2}, wordList, 12)
+Current Hand: a a e e i i m m n n t t
+"immanent" earned 96 points. Total: 96 points
+Current Hand: a e t i
+"ait" earned 9 points. Total: 105 points
+Current Hand: e
+Total score: 105 points.
+```
+
+
+## Problem 7 - You and your Computer
+
+* give the computer the option to play by re-implementing the `playGame` function
+* You may notice that things run slowly when the computer plays. This is to be expected.
+* Game Output:
+```
+Enter n to deal a new hand, r to replay the last hand, or e to end game: n
+
+Enter u to have yourself play, c to have the computer play: u
+
+Current Hand: a s r e t t t
+Enter word, or a "." to indicate that you are finished: tatters
+"tatters" earned 99 points. Total: 99 points
+
+Run out of letters. Total score: 99 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: r
+
+Enter u to have yourself play, c to have the computer play: c
+
+Current Hand:  a s r e t t t
+"stretta" earned 99 points. Total: 99 points
+
+Total score: 99 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: x
+Invalid command.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: n
+
+Enter u to have yourself play, c to have the computer play: me
+Invalid command.
+
+Enter u to have yourself play, c to have the computer play: you
+Invalid command.
+
+Enter u to have yourself play, c to have the computer play: c
+
+Current Hand:  a c e d x l n
+"axled" earned 65 points. Total: 65 points
+
+Current Hand:  c n
+Total score: 65 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: n
+
+Enter u to have yourself play, c to have the computer play: u
+
+Current Hand: a p y h h z o
+Enter word, or a "." to indicate that you are finished: zap 
+"zap" earned 42 points. Total: 42 points
+
+Current Hand: y h h o
+Enter word, or a "." to indicate that you are finished: oy
+"oy" earned 10 points. Total: 52 points
+
+Current Hand: h h
+Enter word, or a "." to indicate that you are finished: .
+Goodbye! Total score: 52 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: r
+
+Enter u to have yourself play, c to have the computer play: c
+
+Current Hand:  a p y h h z o
+"hypha" earned 80 points. Total: 80 points
+
+Current Hand:  z o
+Total score: 80 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: e
+```
