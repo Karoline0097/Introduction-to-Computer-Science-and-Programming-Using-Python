@@ -1,4 +1,5 @@
 # [MITx Introduction to Computer Science and Programming Using Python 6.00.1x ](https://www.edx.org/course/introduction-to-computer-science-and-programming-7)
+* Ana Bell, Eric Grimson, and John Guttag. 6.0001 Introduction to Computer Science and Programming in Python. Fall 2016. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.
 * My enroll period in this course:  01/22 - 04/22
 * In this reposiory, you'll find an overview on course material, exercises and exams
 
@@ -18,3 +19,5 @@
 * [Example code, analysed and worked through in lectures](https://github.com/Karoline0097/Introduction-to-Computer-Science-and-Programming-Using-Python/tree/main/Lectures)
 * Problem Sets, graded 
 * Midterm and Final Exam, graded and timed
+
+
