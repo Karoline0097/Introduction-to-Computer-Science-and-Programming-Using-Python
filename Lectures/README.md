@@ -7,7 +7,7 @@
 * Unit 4: [Good Programming Practices]()
 * Unit 5: [Object Oriented Programming]()
 * Unit 6: [Algorithmic Complexity]()
-* Unit 7: [Plotting]()
+* Unit 7: [Searching and Sorting, Plotting]()
 
 
 ## Resources
