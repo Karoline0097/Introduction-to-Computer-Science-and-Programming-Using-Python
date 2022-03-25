@@ -17,7 +17,7 @@
 * Plotting
 
 ## What I've Practiced:
-* [Example code, analysed and worked through in lectures](https://github.com/Karoline0097/Introduction-to-Computer-Science-and-Programming-Using-Python/tree/main/Lectures)
+* Example code, analysed and worked through in lectures
 * Problem Sets, graded 
 * Midterm and Final Exam, graded and timed
 
