@@ -14,7 +14,7 @@
 * Algorithmic complexity
 * Plotting
 
-## What I've practiced:
+## What I've Practiced:
 * Sample code, worked through in lectures
 * Problem Sets, graded 
 * Midterm and Final Exam
