@@ -17,4 +17,4 @@
 ## What I've Practiced:
 * Sample code, worked through in lectures
 * Problem Sets, graded 
-* Midterm and Final Exam
+* Midterm and Final Exam, graded and timed
