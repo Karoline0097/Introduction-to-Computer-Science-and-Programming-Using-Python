@@ -1,6 +1,6 @@
 # [MITx Introduction to Computer Science and Programming Using Python 6.00.1x ](https://www.edx.org/course/introduction-to-computer-science-and-programming-7)
-My enroll period in this course:  01/22 - 04/22
-In this reposiory, you'll find an overview on course material, exercises and exams
+* My enroll period in this course:  01/22 - 04/22
+* In this reposiory, you'll find an overview on course material, exercises and exams
 
 ## What I've Learned: An Introduction to.. 
 * A notion of computation
