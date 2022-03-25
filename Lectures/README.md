@@ -7,7 +7,7 @@
 ## Course units
 * Unit 1: [Python Basics]()
 * Unit 2: [Simple Programs]()
-* Unit 3: [Structure Types]()
+* Unit 3: [Structured Types]()
 * Unit 4: [Good Programming Practices]()
 * Unit 5: [Object Oriented Programming]()
 * Unit 6: [Algorithmic Complexity]()
