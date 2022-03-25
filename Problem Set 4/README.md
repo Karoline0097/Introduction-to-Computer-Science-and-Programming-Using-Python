@@ -14,6 +14,7 @@ Test the updateHand() implementation.
 * test_isValidWord()
 Test the isValidWord() implementation.
 
+
 ## Problem 1 - Word Scores
 
 * first implement code that allows us to calculate the score for a single word. 
@@ -24,7 +25,8 @@ Test the isValidWord() implementation.
    - Letters are scored as in Scrabble; A is worth 1, B is worth 3, C is worth 3, D is worth 2, E is worth 1, and so on. We have defined the dictionary `SCRABBLE_LETTER_VALUES` that maps each lowercase letter to its Scrabble letter value.
    - Do not assume that there are always 7 letters in a hand! The parameter `n` is the number of letters required for a bonus score (the maximum number of letters in the hand). Our goal is to keep the code modular
 
-## Problem 2 - Word Scores
+
+## Problem 2 - Dealing with Hands
 
 the majority of this problem consists of learning how to read code
 
@@ -60,4 +62,77 @@ a q l l m u i
 {'a':0, 'q':0, 'l':1, 'm':1, 'u':0, 'i':0}
 >>> displayHand(hand)
 l m  
+```
+
+
+## Problem 3 - Valid Words
+
+* verify that a word given by a player obeys the rules of the game. 
+* A valid word is in the word list; and it is composed entirely of letters from the current hand. 
+* Implement the `isValidWord` function.
+
+
+## Problem 4 - Hand Length
+* implement the helper `calculateHandlen` function
+
+
+## Problem 5 - Playing a Hand
+* implement the `playHand` function. This function allows the user to play out a single hand. 
+* Do not assume that there will always be 7 letters in a hand! The parameter `n` represents the size of the hand.
+
+## Problem 6 - Playing a Game
+* A game consists of playing multiple hands.
+* We need to implement one final function `playGame` to complete our word-game program. For the game, you should use the `HAND_SIZE` constant to determine the number of cards in a hand.
+* Game Output:
+```
+Loading word list from file...
+   83667 words loaded.
+Enter n to deal a new hand, r to replay the last hand, or e to end game: r
+You have not played a hand yet. Please play a new hand first!
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: n
+Current Hand: p z u t t t o
+Enter word, or a "." to indicate that you are finished: tot
+"tot" earned 9 points. Total: 9 points
+
+Current Hand: p z u t
+Enter word, or a "." to indicate that you are finished: .
+Goodbye! Total score: 9 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: r
+Current Hand: p z u t t t o
+Enter word, or a "." to indicate that you are finished: top
+"top" earned 15 points. Total: 15 points
+
+Current Hand: z u t t
+Enter word, or a "." to indicate that you are finished: tu
+Invalid word, please try again.
+
+Current Hand: z u t t
+Enter word, or a "." to indicate that you are finished: .
+Goodbye! Total score: 15 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: n
+Current Hand: a q w f f i p
+Enter word, or a "." to indicate that you are finished: paw
+"paw" earned 24 points. Total: 24 points
+
+Current Hand: q f f i
+Enter word, or a "." to indicate that you are finished: qi
+"qi" earned 22 points. Total: 46 points
+
+Current Hand: f f
+Enter word, or a "." to indicate that you are finished: .
+Goodbye! Total score: 46 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: n
+Current Hand: a r e t i i n
+Enter word, or a "." to indicate that you are finished: inertia
+"inertia" earned 99 points. Total: 99 points.
+
+Run out of letters. Total score: 99 points.
+
+Enter n to deal a new hand, r to replay the last hand, or e to end game: x
+Invalid command.
+Enter n to deal a new hand, r to replay the last hand, or e to end game: e
 ```
