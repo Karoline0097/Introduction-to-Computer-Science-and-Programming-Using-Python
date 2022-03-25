@@ -8,7 +8,7 @@
 * Simple algorithms
 * Data structures and mutability
 * Functions and recursion
-* Classes and Object-Orientated Programming 
+* Classes and Object-Oriented Programming 
 * Scoping, abstraction and decomposition
 * Testing and Debugging, exceptions and assertions
 * Algorithmic complexity
