@@ -17,9 +17,9 @@
 * Plotting
 
 ## 🌱 What I've Practiced:
-* Example code, analysed and worked through in lectures
-* Code exercises, graded
-* Problem Sets, graded 
-* Midterm and Final Exam, graded and timed
+* [Example code, analysed and worked through in lectures](https://github.com/Karoline0097/Introduction-to-Computer-Science-and-Programming-Using-Python/tree/main/Lectures)
+* [Coding exercises, graded](https://github.com/Karoline0097/Introduction-to-Computer-Science-and-Programming-Using-Python/tree/main/Coding%20Exercises)
+* [Problem Sets, graded](https://github.com/Karoline0097/Introduction-to-Computer-Science-and-Programming-Using-Python)
+* [Midterm](https://github.com/Karoline0097/Introduction-to-Computer-Science-and-Programming-Using-Python/tree/main/Midterm%20Exam) and Final Exam, graded and timed
 
 
